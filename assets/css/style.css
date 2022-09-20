@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+    height: 100vh;
+}
+
+hr {
+    margin: 10px 0 18px 0;
+    border: 0.1px solid #dbdbdb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contents {
+    max-width: 350px;
+    height: 630px;
+}
+
+.content-login {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 20px 40px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+}
+
+.input-login {
+    margin-top: 7px;
+    border-radius: 2px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    padding: 13px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+.content-alt-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.content-alt-login button {
+    background-color: #ffffff;
+    border: none;
+    margin: 15px;
+}
+
+.login-fb {
+    color: #3B5998;
+    font-weight: 640;
+    margin: 6px;
+}
+
+.btn-start {
+    margin: 15px 0 15px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(4, 169, 245, 0.315);
+    color: #fafafa;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+}
+
+.register a {
+    color: rgb(4, 169, 245);
+    font-weight: 600;
+}
+
+.footer-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-login a img {
+    margin: 0 0 0 8px;
+}
+
+.forgot-password {
+    color: #21335a;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.content-img {
+    position: relative;
+}
+
+.img-logo {
+    width: 175px;
+    height: 51px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.img-cel {
+    width: 450px;
+    height: 635px;
+}
+
+.img-insta {
+    height: 540px;
+    width: 243px;
+    position: absolute;
+    left: 151px;
+    top: 27px;
+    transition: opacity 2s ease-in-out;
+}
+
+.img-app {
+    width: 140px;
+    height: 40px;
+}
+
+.fa {
+    padding: 5px 5px 0 6px;
+    width: 16px;
+    height: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.input-login::placeholder {
+    color: #8a8989;
+}
+
+
+
