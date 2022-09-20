@@ -2,4 +2,4 @@
 
 🖥 Cópia da página de login do Instagram utilizando HTML, CSS e JavaScript.
 
-image.png
+<img src="./assets/img/clone-instagram.png">
