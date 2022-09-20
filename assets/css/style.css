@@ -44,6 +44,7 @@ a {
     padding: 13px;
     font-size: 12px;
     letter-spacing: 0.4px;
+    text-overflow: ellipsis;
 }
 
 .content-alt-login {
